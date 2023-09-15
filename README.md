@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://lucy-sees-math-mystics.onrender.com/)
+[Live Demo Link](https://lucy-sees.github.io/MathMystics/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
