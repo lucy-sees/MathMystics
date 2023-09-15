@@ -36,12 +36,12 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-<div align="center">
+<!-- <div align="center">
 
   <img src="./assets/home.png" alt="app-screenshot-1" width="auto"  height="auto" />
   <img src="./assets/quote.png" alt="app-screenshot-2" width="auto"  height="auto" />
   <img src="./assets/calculator.png" alt="app-screenshot-3" width="auto"  height="auto" />
-  </div>
+  </div> -->
 
 ## 🛠 Built With <a name="built-with"></a>
 
