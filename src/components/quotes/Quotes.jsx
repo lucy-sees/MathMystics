@@ -45,8 +45,9 @@ const Quotes = () => {
         <ul className="quotesList">
           <li key={quotes.id}>
             <span>
-              {'. '}
+              {' "'}
               {quotes.quote}
+              {'" '}
             </span>
             <span>
               Author:
