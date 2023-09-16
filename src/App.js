@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import Calc from './components/Calculator';
+import Calc from './components/calculator/Calculator';
+import Quotes from './components/quotes/Quotes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Calc />
-      </header>
+      <Calc />
+      <Quotes />
     </div>
   );
 }
