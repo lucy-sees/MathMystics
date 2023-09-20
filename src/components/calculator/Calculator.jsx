@@ -10,7 +10,6 @@ const Calc = () => {
   });
 
   const { total, next } = obj;
-
   const handleClick = (e) => {
     const result = calculate(obj, e.target.textContent);
     setObj(result);
