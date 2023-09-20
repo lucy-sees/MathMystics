@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/Quote.css';
+import './quotes.css';
 
 const apiUrl = process.env.REACT_APP_API_URL;
 const apiKey = process.env.REACT_APP_API_KEY;
@@ -34,14 +34,14 @@ const Quotes = () => {
     getData();
   }, []);
 
-  const message = isError ? 'There must be some error' : 'Loading...';
+  const message = isError ? 'There must be some error' : 'Here\'s a quote...';
   if (isLoading || isError) {
     return <p className="message">{message}</p>;
   }
   return (
     <div className="container">
       <div className="quote-container">
-        <h2>Quotes</h2>
+        <h2>Quote</h2>
         <ul className="quotesList">
           <li key={quotes.id}>
             <span className="quote-text">
