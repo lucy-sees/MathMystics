@@ -34,27 +34,27 @@ const Quotes = () => {
     getData();
   }, []);
 
-  const message = isError ? 'There must be some error' : 'Loading...';
+  const message = isError ? 'There must be some error' : 'Here\'s a quote...';
   if (isLoading || isError) {
     return <p className="message">{message}</p>;
   }
   return (
     <div className="container">
-      <div className="quotesDiv">
-        <h2>Quotes</h2>
+      <div className="quote-container">
+        <h2>Quote</h2>
         <ul className="quotesList">
           <li key={quotes.id}>
-            <span>
+            <span className="quote-text">
               {' "'}
               {quotes.quote}
               {'" '}
             </span>
-            <span>
+            <span className="quote-text quote-author">
               Author:
               {' '}
               {quotes.author}
             </span>
-            <span>
+            <span className="quote-text quote-category">
               Category:
               {quotes.category}
             </span>
